@@ -1,3 +1,9 @@
+body {
+    background-color: rgba(107, 113, 117, 0.938);
+}
+footer {
+    font-size: 8px;
+}
 html {
     font-size: 100%;
     line-height: 1,5rem;
@@ -90,6 +96,31 @@ img {
     transform: scale(0.9);
 }
 
+.current-page a {
+    text-decoration: underline;
+}
+
+/* Container that holds PDF  and image link */
+
+.container {
+    position: relative;
+    text-align: center;
+    Color: red;
+}
+.centered a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(44, 189, 0);
+
+}
+
+
+/* Media Queries */
+
 @media (min-width:600px) {
     .header-nav {
         line-height: 0.5rem; 
@@ -99,6 +130,9 @@ img {
     }
     .nav-item {
         flex: 1 0 10%;
+    }
+    .centered a {
+        font-size: 1.5rem;
     }
 }
 
