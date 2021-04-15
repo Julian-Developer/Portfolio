@@ -1,9 +1,13 @@
-body {
-    background-color: rgba(107, 113, 117, 0.938);
+.index-page {
+    background-color: slategrey;
 }
 footer {
     font-size: 8px;
+    font-style: oblique;
+    font-weight: bold;
+    position: fixed;
 }
+
 html {
     font-size: 100%;
     line-height: 1,5rem;
@@ -115,8 +119,48 @@ img {
     color: black;
     text-decoration: none;
     text-shadow: 2px 2px rgb(44, 189, 0);
-
 }
+.index-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/* Contact Page */
+/* This page has four containers for various contact forms as well as an email link. */
+
+.contact-page {
+    background-color: slategrey;
+    background-image: url("../img/greenandblacksplash2.jpg");
+    background-position: top;
+    background-size: 50rem;
+    background-repeat: no-repeat;
+}
+.contact-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.contact-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.email-link {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
 
 
 /* Media Queries */
@@ -149,13 +193,4 @@ img {
         margin: 0 0 0 .3rem;
     }
 }
-
-
-
-
-
-
-
-
-
 
