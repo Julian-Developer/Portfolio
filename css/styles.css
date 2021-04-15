@@ -1,8 +1,13 @@
-body {
-    background-color: rgba(107, 113, 117, 0.938);
+.index-page {
+    background-image: url("../img/Green-on-black-splash.jpg");
+    background-position: center;
 }
 footer {
     font-size: 8px;
+}
+.index-footer {
+    font-style: oblique;
+    font-weight: bold;
 }
 html {
     font-size: 100%;
@@ -118,6 +123,12 @@ img {
 
 }
 
+/* Contact Page */
+/* This page has four containers for various contact forms as well as an email link. */
+
+.contact-page {
+    background-color: slategrey;
+}
 
 /* Media Queries */
 
