@@ -170,12 +170,7 @@ margin-top: 3px;
 
 /* Contact Page Styling */
 
-/* .contact-page { to be deleted if irrelevant
-    background-color: slategrey;
-    background-position: top;
-    background-size: 50rem;
-    background-repeat: no-repeat; */
-/* } */
+
 .contact-icon-container {
     display: flex;
     flex-direction: row;
@@ -183,12 +178,6 @@ margin-top: 3px;
     justify-content: space-between;
     padding: 0.8rem;    
 }
-
-/* .contact-footer { to be deleted if irrelevant
-    position: fixed;
-    left: 0;
-    bottom: 0;
-} */
 
 .email-link {
     text-align: center;
@@ -289,6 +278,12 @@ margin-top: 3px;
     height: 100px;
 }
 
+.blog-dog {
+    width: 150px;
+    height: 150px;
+    text-align: left;
+}
+
 .blog {
     width: 150px;
     height: 150px;
@@ -300,6 +295,7 @@ margin-top: 3px;
     background: lightskyblue;
     padding: 3px;
     margin-top: 7rem;
+    margin-bottom: 2rem;
 }
 
 /* Media Queries */
@@ -338,5 +334,6 @@ margin-top: 3px;
     .logo {
         margin: 0 0 0 .3rem;
     }
+
 }
 
