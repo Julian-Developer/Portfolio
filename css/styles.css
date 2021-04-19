@@ -63,7 +63,6 @@
 
 p {
     text-align: left;
-    font-family: 'Poppins', sans-serif;
 }
 
 footer {
@@ -75,7 +74,7 @@ footer {
 
 html {
     font-size: 100%;
-    line-height: 1,5rem;
+    line-height: 1.5rem;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -86,6 +85,7 @@ body {
     min-height: 100vh;
     max-width: 1400px;
     background-color: slategrey;
+    font-family: 'Poppins', sans-serif;
 }
 
 *,
