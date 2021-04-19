@@ -1,6 +1,71 @@
-.index-page {
-    background-color: slategrey;
+/* Nav Bar Universal Styling */
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1rem;
+    overflow: hidden;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    background-color: salmon;
 }
+
+.nav-menu {
+    text-transform: uppercase;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.8rem;
+    margin: 0;
+}
+
+.nav-item {
+    flex: 1 0 10%;
+    text-align: center;
+}
+
+.nav-menu a {
+    display: block;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    padding: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.nav-menu a {
+    color: rgb(41, 1, 41);
+    transition: all ease-in-out 0.5s;
+    border-bottom: 1px solid salmon;
+}
+
+.nav-menu a:hover {
+    background-color: lightskyblue;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: all ease 0s;
+}
+
+.nav-menu a:active {
+    transform: scale(0.9);
+}
+
+.current-page a {
+    text-decoration: underline;
+}
+
+/* Universal Styling */
+
+p {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
 footer {
     font-size: 8px;
     font-style: oblique;
@@ -20,6 +85,7 @@ body {
     padding: 0;
     min-height: 100vh;
     max-width: 1400px;
+    background-color: slategrey;
 }
 
 *,
@@ -34,7 +100,7 @@ img {
     display: block;
 }
 
-.tech-image {
+.main-image {
     width: 50%;
     height: 50%;
     margin-top: 1rem;
@@ -48,11 +114,6 @@ img {
     background: lightskyblue;
     padding: 3px;
     margin-top: 10px;
-}
-
-.resume-data {
-    margin-top: 3rem;
-    text-align: right;
 }
 
 .title-text {
@@ -76,12 +137,93 @@ padding: 3px;
 .column2 {
     margin-bottom: 6rem;
 }
-    
-.about-me {
-    margin-top: 50px;
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}    
+
+/* Index Page Styling */
+
+.resume-data {
+    margin-top: 3rem;
+    text-align: right;
 }
 
-.header-nav {
+.about-me {
+    margin-top: 50px;
+    list-style: none;
+}
+
+.about-me-container {
+    list-style: none;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-content: space-between;
+}
+
+
+/* Contact Page Styling */
+
+/* .contact-page { to be deleted if irrelevant
+    background-color: slategrey;
+    background-position: top;
+    background-size: 50rem;
+    background-repeat: no-repeat; */
+/* } */
+.contact-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    justify-content: space-between;
+    padding: 0.8rem;    
+}
+
+/* .contact-footer { to be deleted if irrelevant
+    position: fixed;
+    left: 0;
+    bottom: 0;
+} */
+
+.email-link {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.mini-header {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.line-separation-socials {
+    width: 100%;
+    height: 3px;
+    background: lightskyblue;
+    padding: 3px;
+    margin-top: 20px;
+}
+/* Skillset Page Styling */
+
+.skills-text {
+    margin-top: 50px;
+}
+.mini-header-skills {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skills-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -90,15 +232,14 @@ padding: 3px;
     overflow: hidden;
     margin-bottom: 0rem;
     margin-top: 1rem;
-    background-color: salmon;
+    background-color: TEAL;
 }
 
-.logo,
-.nav-menu {
+.skills-menu {
     text-transform: uppercase;
 }
 
-.nav-menu {
+.skills-menu {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -108,150 +249,61 @@ padding: 3px;
     margin: 0;
 }
 
-.nav-item {
+.skill-item {
     flex: 1 0 10%;
     text-align: center;
 }
 
-.logo a, 
-.nav-menu a {
+.skills-menu a {
     display: block;
     text-decoration: none;
     letter-spacing: 0.2rem;
     padding: 0.8rem;
     margin-bottom: 0.2rem;
-
 }
 
-.logo {
-    margin: 0 auto;
-}
-
-.logo a {
-    color: royalblue;
-    align-items: center;
-}
-
-.nav-menu a {
+.skills-menu a {
     color: rgb(41, 1, 41);
     transition: all ease-in-out 0.5s;
-    border-bottom: 1px solid salmon;
+    border-radius: 1px solid salmon;
 }
 
-.nav-menu a:hover {
+.skills-menu a:hover {
     background-color: lightskyblue;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 1px solid rgb(0, 0, 0);
     transition: all ease 0s;
 }
 
-.nav-menu a:active {
+.skills-menu a:active {
     transform: scale(0.9);
 }
 
-.current-page a {
-    text-decoration: underline;
-}
-
-.about-me-container {
-    list-style: none;
-    letter-spacing: 0.1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-/* Container that holds PDF  and image link */
-
-.container {
-    position: relative;
-    text-align: center;
-    Color: red;
-}
-.centered a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate( -50%, -50%);
-    color: black;
-    text-decoration: none;
-    text-shadow: 2px 2px rgb(44, 189, 0);
-}
-.index-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-
-/* Contact Page */
-/* This page has four containers for various contact forms as well as an email link. */
-
-.contact-page {
-    background-color: slategrey;
-    background-position: top;
-    background-size: 50rem;
-    background-repeat: no-repeat;
-}
-.contact-icon-container {
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
-    justify-content: space-between;
-    padding: 0.8rem;    
-}
-
-.contact-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-
-.email-link {
-    text-align: center;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.icon {
-    width: 30px;
-    height: 30px;
-}
-
-.socials {
-    text-align: center;
-    margin-top: 0.5rem;
-}
-
-.emails {
-    text-align: center;
-    margin-top: 0.8rem;
-}
-            
-/* Skillset Page */
-
-.skillset-page {
-    background-color: slategrey;
-    background-position: top;
-    background-size: 50rem;
-}
 
 /* Blog Page */
 
 .blog-container {
-width: 100%;
-height: 400px;
+width: 30%;
+height: 200px;
 background: salmon;
-margin-top: 10px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+justify-content: space-evenly;
 }
 
 .blog {
+    size:1rem;
     width: 150px;
-    height: 120px;
-    margin: 10px;
+    height: 150px;
 }
 
+.line-separation-bottom {
+    width: 100%;
+    height: 3px;
+    background: lightskyblue;
+    padding: 3px;
+    margin-top: 7rem;
+}
 
 /* Media Queries */
 
@@ -268,7 +320,7 @@ justify-content: center;
     .centered a {
         font-size: 1.5rem;
     }
-    .tech-image {
+    .main-image {
         width: 40%;
         height: 70%;
     }
