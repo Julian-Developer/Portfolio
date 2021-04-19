@@ -63,7 +63,6 @@
 
 p {
     text-align: left;
-    font-family: 'Poppins', sans-serif;
 }
 
 footer {
@@ -75,7 +74,7 @@ footer {
 
 html {
     font-size: 100%;
-    line-height: 1,5rem;
+    line-height: 1.5rem;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -86,6 +85,7 @@ body {
     min-height: 100vh;
     max-width: 1400px;
     background-color: slategrey;
+    font-family: 'Poppins', sans-serif;
 }
 
 *,
@@ -123,6 +123,8 @@ img {
 
 .row {
 padding: 3px;
+margin-bottom: 3px;
+margin-top: 3px;
 }
 
 .column {
@@ -265,34 +267,29 @@ padding: 3px;
 .skills-menu a {
     color: rgb(41, 1, 41);
     transition: all ease-in-out 0.5s;
-    border-radius: 1px solid salmon;
+    border: 2px solid teal;
 }
 
 .skills-menu a:hover {
     background-color: lightskyblue;
     border-radius: 1px solid rgb(0, 0, 0);
-    transition: all ease 0s;
+    transition: all ease 0.2s;
 }
 
 .skills-menu a:active {
     transform: scale(0.9);
+    border: 2px solid black;
 }
 
 
 /* Blog Page */
 
-.blog-container {
-width: 30%;
-height: 200px;
-background: salmon;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-justify-content: space-evenly;
+.blog-rabbit {
+    width: 100px;
+    height: 100px;
 }
 
 .blog {
-    size:1rem;
     width: 150px;
     height: 150px;
 }
