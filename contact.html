@@ -20,30 +20,39 @@
                 <li class="nav-item current-page"><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <div class="row">
-            <div class="column">
-                <img class="main-image" src="/img/tech.jpg" alt="image with tech">
-            </div>
-            <div class="column2">
-              <h2 class="title-text"> Julian Oyston, Web Design</h2>
-            </div>
+        <article class="header-container">
+            <div class="header-image"><img src="img/eyeimg.png"></div>
+            <div class="header-text">Julian Oyston, Web Design</div>
+        </article>
     </header>
+    <div class="mini-header">SOCIALS</div>
+    <!-- Contact Icons -->
+    <div class="contact-icon-container">
+        <a href="https://twitter.com/JulianDevelope1" class="contact-icon"> <img src="img/twitter-icon.png" alt="Twitter Icon"></a>
+        <a href="https://github.com/Julian-Developer" class="contact-icon"> <img src="img/github-icon.png" alt="Github Icon"></a>
+        <a href="https://www.linkedin.com/in/julian-oyston-600b9520b/" class="contact-icon"> <img src="img/linkedin-icon.png" alt="LinkedIn Icon"></a>
+        <a href="https://www.instagram.com/julianoystondev/" class="contact-icon"> <img src="img/instagram-icon.png" alt="Instagram-icon"></a>
+        </div>
 <main>
     <div class="line-separation-socials"></div>
-    <div class="mini-header"> S O C I A L S</div>
-    <p>Feel free to contact me for more information or a query!</p>
-
-<!-- Contact Icons -->
-    <div class="contact-icon-container">
-    <a href="https://twitter.com/JulianDevelope1" class="contact-icon"> <img src="img/twitter-icon.png" alt="Twitter Icon"></a>
-    <a href="https://github.com/Julian-Developer" class="contact-icon"> <img src="img/github-icon.png" alt="Github Icon"></a>
-    <a href="https://www.linkedin.com/in/julian-oyston-600b9520b/" class="contact-icon"> <img src="img/linkedin-icon.png" alt="LinkedIn Icon"></a>
-    <a href="https://www.instagram.com/julianoystondev/" class="contact-icon"> <img src="img/instagram-icon.png" alt="Instagram-icon"></a>
-    </div>
-    <div class="email-link"> E M A I L</div>
-<div class="email-link">GCAB012111@coderacademy.edu.au</div>
-<div class="line-separation"></div>
-    
+    <div class="mini-header"> CONTACT ME</div>
+    <form class="contact-form" action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname"value="Doe"><br><br>
+        <label for="lname">Email Address:</label><br>
+        <input type="text" id="email"value="email@email.com"><br><br>
+        <input type="checkbox"id="technicalissue" name="technicalissue"value="TechnicalIssue">
+        <label for="technicalissue">I have a Technical Issue</label><br>
+        <input type="checkbox"id="designquote" name="designquote"value="DesignQuote">
+        <label for="designquote">I would like a Design Quote</label><br>
+        <input type="checkbox"id="devquote" name="devquote"value="DevQuote">
+        <label for="devquote">I would like a Development Quote</label><br>
+        <input type="checkbox"id="other" name="other"value="Other">
+        <label for="other">Other</label><br>
+        <input class="submitbutton" type="submit"value="Submit">
+    </form>    
 <footer> 
         <div class="footer"> ACreativeInstituteProduction©</div>
     </footer>
