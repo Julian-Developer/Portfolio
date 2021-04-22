@@ -1,0 +1,89 @@
+commit 9ba8c1883b8af13eb5d52891614444411c0463c6
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Thu Apr 22 09:34:51 2021 +1000
+
+    Final Product Upload
+
+commit d3ef36f453a99c9a3194bea2f333208ca93971cb
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Tue Apr 20 22:08:44 2021 +1000
+
+    newest final draft
+
+commit cf5912169884430144c77c8741eee54f01c8e155
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Mon Apr 19 16:25:35 2021 +1000
+
+    another final commit
+
+commit bb45e15cd923c7789560a655b47b1ab54c219261
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Mon Apr 19 16:05:46 2021 +1000
+
+    FInalised Comments, why does this not push everytime?
+
+commit 1ca15d90d82e29b3605fd4e32008aaba52dbe520
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Mon Apr 19 15:57:03 2021 +1000
+
+    Final Push, barring any serious issues
+
+commit cf68f6d846045f1039b56618caf6594122a3eded
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Mon Apr 19 15:18:58 2021 +1000
+
+    slight update
+
+commit 72f6496ec1fd02b09526fc4dc66772288ec9af18
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Mon Apr 19 15:18:31 2021 +1000
+
+    Almost finished, minor touches remaining. Online For peer testing
+
+commit 2ce267820500af19c1705fd9f44337b29a83af2a
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Sun Apr 18 17:12:41 2021 +1000
+
+    all four pages, reup
+
+commit 6d6ad063ed112c2fe20735915df71574bebcd684
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Sun Apr 18 17:09:34 2021 +1000
+
+    finished all four pages, final draft in progress
+
+commit 9fc0de140e7b1435d5f1ebacec99cfef73f9a0f5
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Thu Apr 15 19:44:04 2021 +1000
+
+    installed social links and fixed other link for contact page
+
+commit 4727aff54a15197d7420c7007dd33fd73dd323b9
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Thu Apr 15 19:29:39 2021 +1000
+
+    fixed link on contact to connect the two pages
+
+commit 94bf0921360f17bf57ad906c33e506833f4d071a
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Thu Apr 15 19:21:10 2021 +1000
+
+    modified links and anmes and cleaned up footer+links in contact page
+
+commit 3b99533c7145c078595d9c6022694c7c82903563
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Thu Apr 15 18:43:57 2021 +1000
+
+    contact page almost done
+
+commit 76b31048a5764adb4787f60704bdfbe646598acf
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Thu Apr 15 14:59:58 2021 +1000
+
+    finished index
+
+commit 348c07a4c0ed8e9e74a861ed540487de0740a91f
+Author: Julian-Developer <GCAB012111@coderacademy.edu.au>
+Date:   Wed Apr 14 16:42:28 2021 +1000
+
+    git commit
